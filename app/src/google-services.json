@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "443676546158",
+    "firebase_url": "https://cutspace-6c44c.firebaseio.com",
+    "project_id": "cutspace-6c44c",
+    "storage_bucket": "cutspace-6c44c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:443676546158:android:0de035ad82c9a3d8",
+        "android_client_info": {
+          "package_name": "com.example.cutspace"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "443676546158-0e8180rjk387ouhn7rt048ddk4jbo5nj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cutspace",
+            "certificate_hash": "fb07689cdee0aa2ce8cdfaecb0b21fe9f51784c7"
+          }
+        },
+        {
+          "client_id": "443676546158-lphluf9jrm9985b34euff7djpce1lutd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCggJQCMno9ni5F_E44Puud2GmmHzFL4pc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "443676546158-lphluf9jrm9985b34euff7djpce1lutd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
