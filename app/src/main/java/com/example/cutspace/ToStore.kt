@@ -1,7 +1,9 @@
 package com.example.cutspace
 
+import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
 
 class ToStore : AppCompatActivity() {
 
@@ -13,6 +15,14 @@ class ToStore : AppCompatActivity() {
         val pasekPowrotu = supportActionBar
 
         pasekPowrotu!!.title = "Powrót"
+
+        val addP = findViewById<Button>(R.id.addProduct)
+
+        addP.setOnClickListener{
+
+            val intent = Intent(this, AddProduct::class.java)
+            startActivity(intent)
+        }
 
     }
 

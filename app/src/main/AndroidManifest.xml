@@ -9,8 +9,13 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name=".Sale"
-                  android:parentActivityName=".MainActivity">
+        <activity
+                android:name=".AddProduct"
+                android:parentActivityName=".ToStore">
+        </activity>
+        <activity
+                android:name=".Sale"
+                android:parentActivityName=".MainActivity">
         </activity>
         <activity
                 android:name=".Customers"
