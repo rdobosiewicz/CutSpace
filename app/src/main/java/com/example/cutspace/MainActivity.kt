@@ -29,7 +29,7 @@ class MainActivity : Activity() {
             val intentTwo = Intent(this, Services::class.java)
             startActivity(intentTwo)
         }
-
+        /*
         val listaKlientow = findViewById<Button>(R.id.customerList)
 
         listaKlientow.setOnClickListener{
@@ -45,5 +45,7 @@ class MainActivity : Activity() {
             val intentFour = Intent(this, Sale::class.java)
             startActivity(intentFour)
         }
+
+         */
     }
 }

@@ -8,71 +8,47 @@
         tools:context=".MainActivity">
 
     <TextView
+            android:id="@+id/OknoPowitalne"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
             android:text="Witaj w CutSpace"
             android:textSize="30dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            android:id="@+id/OknoPowitalne"
-            app:layout_constraintHorizontal_bias="0.498" android:layout_marginBottom="16dp"
-            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.023"/>
+            app:layout_constraintVertical_bias="0.087" />
+
     <Button
-            android:text="Magazyn"
-            android:layout_width="122dp"
-            android:layout_height="66dp"
             android:id="@+id/store"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
-            app:layout_constraintTop_toBottomOf="@+id/OknoPowitalne"
             android:layout_marginEnd="16dp"
-            app:layout_constraintEnd_toEndOf="parent" android:layout_marginStart="16dp"
-            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.494"
-            android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintVertical_bias="0.051"/>
-    <Button
-            android:text="Wycena Usługi"
-            android:layout_width="122dp"
-            android:layout_height="66dp"
-            android:id="@+id/services"
-            app:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginEnd="16dp" app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginStart="16dp"
-            app:layout_constraintHorizontal_bias="0.498"
-            app:layout_constraintTop_toBottomOf="@+id/store" app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintVertical_bias="0.064"/>
-    <Button
-            android:text="Sprzedaż"
-            android:layout_width="122dp"
-            android:layout_height="66dp"
-            android:id="@+id/sale"
-            app:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginEnd="16dp" app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginStart="16dp"
-            app:layout_constraintHorizontal_bias="0.498"
+            android:layout_marginBottom="8dp"
+            android:text="Magazyn"
             app:layout_constraintBottom_toBottomOf="parent"
-            android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/customerList"
-            app:layout_constraintVertical_bias="0.148"/>
-    <Button
-            android:text="Lista Klientów"
-            android:layout_width="121dp"
-            android:layout_height="66dp"
-            android:id="@+id/customerList" android:layout_marginTop="36dp"
-            app:layout_constraintTop_toBottomOf="@+id/services" app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginStart="16dp" app:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginEnd="16dp" app:layout_constraintHorizontal_bias="0.492"
-            android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintVertical_bias="0.0"/>
-    <Button
-            android:text="Ustawienia"
-            android:layout_width="122dp"
-            android:layout_height="66dp"
-            android:id="@+id/Ustawienia"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
             app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginStart="16dp" app:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginEnd="16dp" android:layout_marginBottom="8dp"
-            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="0.494"
-            android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/sale"
-            app:layout_constraintVertical_bias="0.231"/>
+            app:layout_constraintTop_toBottomOf="@+id/OknoPowitalne"
+            app:layout_constraintVertical_bias="0.051" />
+
+    <Button
+            android:id="@+id/services"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="Wycena Usługi"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/store"
+            app:layout_constraintVertical_bias="0.064" />
 
 </android.support.constraint.ConstraintLayout>
